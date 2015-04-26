@@ -27,7 +27,7 @@ defmodule HexClient.Mixfile do
     [
       {:httpoison, "~> 0.3.0"},
       {:hackney,   github: "benoitc/hackney"},
-      {:jsex,      "~> 2.0.0"}
+      {:poison,    "~> 1.4.0"}
     ]
   end
 end
