@@ -25,8 +25,7 @@ defmodule HexClient.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.3.0"},
-      {:hackney,   github: "benoitc/hackney"},
+      {:httpoison, "~> 0.6.0"},
       {:poison,    "~> 1.4.0"}
     ]
   end
